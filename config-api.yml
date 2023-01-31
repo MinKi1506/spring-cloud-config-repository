@@ -1,0 +1,24 @@
+server:
+  port: 8085
+
+
+#VM DB설정(여의도 DB)
+spring:
+  datasource:
+   url: jdbc:mariadb://192.168.50.15:3306/project3
+   driver-class-name: org.mariadb.jdbc.Driver
+   username: root
+   password: alsrl123
+   
+#VM DB설정(대전 DB)
+# spring:
+#   datasource:
+#    url: jdbc:mariadb://192.168.50.15:3306/project3
+#    driver-class-name: org.mariadb.jdbc.Driver
+#    username: root
+#    password: alsrl123
+
+
+
+test:
+  minki: 민기
