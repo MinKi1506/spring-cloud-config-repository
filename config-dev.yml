@@ -1,3 +1,8 @@
 minki:
   comment: Hi! this is "changed" dev land
   description: changed develop land
+  
+spring:
+  datasource:
+    username: 랄라랄민기
+    url: www.네이버.채ㅡ
