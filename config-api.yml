@@ -28,4 +28,4 @@ spring:
 
 
 test:
-  minki: 준기
+  minki: 0.3
