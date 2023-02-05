@@ -2,21 +2,21 @@ server:
   port: 8085
 
 #로컬 DB 설정
-spring:
- datasource:
-   url: jdbc:mariadb://localhost:3306/project3
-   driver-class-name: org.mariadb.jdbc.Driver
-   username: root
-   password: 6639
+# spring:
+#  datasource:
+#    url: jdbc:mariadb://localhost:3306/project3
+#    driver-class-name: org.mariadb.jdbc.Driver
+#    username: root
+#    password: 6639
 
 
 # #VM DB설정(여의도 DB)
-# spring:
-#   datasource:
-#    url: jdbc:mariadb://192.168.50.15:3306/project3
-#    driver-class-name: org.mariadb.jdbc.Driver
-#    username: root
-#    password: alsrl123
+spring:
+  datasource:
+   url: jdbc:mariadb://192.168.50.15:3306/project3
+   driver-class-name: org.mariadb.jdbc.Driver
+   username: root
+   password: alsrl123
    
 # #VM DB설정(대전 DB)
 # spring:
