@@ -28,4 +28,4 @@ spring:
 
 
 test:
-  minki: 0.3
+  minki: 0.2
